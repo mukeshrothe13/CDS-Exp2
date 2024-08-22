@@ -1,31 +1,41 @@
-# AIM
-To learn about different data types and their size and demonstration of storage classes.
 
-# Software Used
-VS Code
+## Aim
+To explore various data types and their sizes in C++, and to demonstrate the use of storage classes.
 
-# Problem Statement
-1.) Write a program to show size of different data types.
+## Software Used
+- VS Code
 
-2.) Write a program for static class.
+## Problem Statements
 
-# Theory
- 
-| Data type  | Size (bytes) |
-| ------------- | ------------- |
-|int	  | 4  |
-| float  | 4 |
-|string| 24 |
-|char| 1 |
-|short int| 2|
+1. **Display Sizes of Different Data Types**
+   - Create a program to show the sizes of various data types in C++.
 
- _'size of'_ function is used to get the size of data type.
+2. **Demonstrate Static Storage Class**
+   - Develop a program to illustrate the behavior of the `static` storage class.
 
+## Theory
+
+### Data Type Sizes
+
+The typical sizes of common data types in C++ are as follows:
+
+- **`int`**: 4 bytes
+- **`float`**: 4 bytes
+- **`std::string`**: Typically 24 bytes (size may vary by implementation and platform)
+- **`char`**: 1 byte
+- **`short int`**: 2 bytes
+
+Use the `sizeof` operator to determine the size of these data types in C++.
+
+### Storage Classes
+
+- **`static`**: Used to preserve the value of a variable between function calls or across the entire program lifetime when used globally.
 
 # Program Codes
 
 ```javascript
-//Size
+
+//Mukesh Rothe //23070123089 //CDS EXP 2
 #include<iostream>
 using namespace std;
 int main()
@@ -34,16 +44,17 @@ cout << "Size of Integer is: "   << sizeof(int) <<" bytes"<< endl;
 cout << "Size of Float is: "   << sizeof(float) <<" bytes"<< endl;
 cout << "Size of String is: "   << sizeof(string) <<" bytes"<< endl;
 cout << "Size of Character is: "   << sizeof(char) <<" bytes"<< endl;
+cout << "Size of Character is: "   << sizeof(char) <<" bytes"<< endl;
 cout << "Size of Short Integer is: "   << sizeof(short int) <<" bytes"<< endl;
 }
 
-//Static
+//Mukesh Rothe //23070123089 //CDS EXP 2
 #include<iostream>
 using namespace std;
 void staticExample(){
 int z = 0;
 z++;
-cout<<"the value of z is: "<<z<<endl;
+cout<<"The value of z is: "<<z<<endl;
 }
 int main(){
 staticExample();
@@ -52,12 +63,12 @@ return 0;
 }
 ```
 # Output:
-1.) 2a_sizeof
-![image](https://github.com/user-attachments/assets/c7c80e25-72df-44c0-8c2e-f603fe54bad0)
-2.) 2b_static
-![image](https://github.com/user-attachments/assets/8b863fb0-efd2-4523-be8a-cde1efd84a55)
+Sizeof()-
 
-# Conclusion
-We learnt to use _'size of'_ function & static class.
+Static-
+## Conclusion
 
-We learnt about different data types and their use.
+- We learned how to use the `sizeof` operator to determine the size of different data types.
+- We explored the `static` storage class and its effect on variable persistence.
+
+
