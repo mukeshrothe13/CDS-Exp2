@@ -44,7 +44,6 @@ cout << "Size of Integer is: "   << sizeof(int) <<" bytes"<< endl;
 cout << "Size of Float is: "   << sizeof(float) <<" bytes"<< endl;
 cout << "Size of String is: "   << sizeof(string) <<" bytes"<< endl;
 cout << "Size of Character is: "   << sizeof(char) <<" bytes"<< endl;
-cout << "Size of Character is: "   << sizeof(char) <<" bytes"<< endl;
 cout << "Size of Short Integer is: "   << sizeof(short int) <<" bytes"<< endl;
 }
 
@@ -65,7 +64,11 @@ return 0;
 # Output:
 Sizeof()-
 
+![Screenshot 2024-08-22 205603](https://github.com/user-attachments/assets/e3e000ed-9cbf-4bdd-90e0-cc4919299feb)
+
 Static-
+![Screenshot 2024-08-22 205503](https://github.com/user-attachments/assets/cdefbe29-95a7-45ab-b8cc-95e120983a24)
+
 ## Conclusion
 
 - We learned how to use the `sizeof` operator to determine the size of different data types.
